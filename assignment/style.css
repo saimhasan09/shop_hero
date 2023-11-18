@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+        
+}
+
+.nav-color{
+    background-color: rgb(58, 57, 122);
+}
+
+.nav-text{
+    color: aliceblue;
+}
+.banner-text{
+    font-size:50vh;
+    margin-top: 50%;
+}
+
+.eleven-bg{
+    background-color:rgb(86, 85, 156) ;
+    
+}
+
+.footer{
+    background-color: rgb(14,7,27);
+    color:aliceblue ;
+}
+
+/* .c-item{
+    height: 480px;
+}
+.c-img{
+    height: -50%;
+    object-fit: cover;
+    filter: brightness(0.9);
+}
+.slide-bg1 {
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.carousel-item {
+    height: 100vh;
+    /* Set the height of the carousel items to the viewport height */
+    background-size: cover;
+    /* Ensure the background image covers the entire slide */
+    background-position: center;
+    /* Center the background image */
+    position: relative;
+}
+
+/* Styles for the left div with text */
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #252525;
+    /* Text color */
+}
+
+/* Styles for the right div with image */
+.image-container {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    
+    transform: translate(0, -20%);
+}
+
+/* Additional styles for responsive images */
+.image-container img {
+    max-width: 70%;
+    /* Ensure the image doesn't exceed its container */
+    height: auto;
+    /* Maintain the aspect ratio of the image */
+}
